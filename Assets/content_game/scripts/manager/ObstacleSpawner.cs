@@ -30,7 +30,7 @@ namespace BerTaDEV
         }
         void spawnObstacleTile()
         {
-            GameObject obj = obstacleTile.GetPooledObject();
+            GameObject obj = obstacleTile.GetRandomPooledObject();
             obj.SetActive(true);
             obj.transform.position = obstaclePoint.position;
 

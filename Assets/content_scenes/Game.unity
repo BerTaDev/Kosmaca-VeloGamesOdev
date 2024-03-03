@@ -1493,7 +1493,7 @@ MonoBehaviour:
   - {fileID: 1939756739899817060, guid: e20cf9ec05eecdf48a120895f66df8f0, type: 3}
   - {fileID: 1939756739899817060, guid: e20cf9ec05eecdf48a120895f66df8f0, type: 3}
   - {fileID: 1939756739899817060, guid: e20cf9ec05eecdf48a120895f66df8f0, type: 3}
-  amount: 20
+  amount: 50
 --- !u!4 &362543681
 Transform:
   m_ObjectHideFlags: 0
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373727302}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d47260672a663d7419b4bfad411f9cf1, type: 3}
   m_Name: 

@@ -40,9 +40,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Backward_Strength: -0.01
+    - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SideWay_Strength: -0.01
+    - _Smoothness: 0
     - _Tile_Strength: 1
     m_Colors: []
   m_BuildTextureStacks: []

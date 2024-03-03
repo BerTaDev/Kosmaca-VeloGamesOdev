@@ -27,7 +27,12 @@ namespace BerTaDEV
                 poolObjects.Add(obj);
             }
         }
-
+        public GameObject GetRandomPooledObject()
+        {
+            int ran = Random.Range(0, poolObjects.Count);
+            beforeobjecT = poolObjects[ran];
+            return poolObjects[ran];
+        }
         public GameObject GetPooledObject()
         {
             for (int i = 0; i < poolObjects.Count; i++)
